@@ -20,3 +20,11 @@
 	src: local("Open Sans"), local("OpenSans"),
 		url("../fonts/OpenSans-400.woff") format("woff")
 }
+
+@font-face {
+    font-family: 'rsuregular';
+    src: url('../fonts/rsu_regular.woff2') format('woff2'),
+         url('../fonts/rsu_regular.woff') format('woff');
+    font-style: normal;
+	font-weight: 400;
+}
