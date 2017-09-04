@@ -18,6 +18,9 @@
 	href="../assets/css/jquery.fancybox.css">
 <link rel="stylesheet" type="text/css" href="../assets/css/theme.css">
 <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+<script src="../assets/js/jquery-1.12.4.js"></script>
+<script src="../assets/js/jquery-ui.js"></script>
+<link rel="stylesheet" href="../assets/css/jquery-ui.css">
 <!--[if lt IE 9]>
 <script src="../assets/js/html5shiv.min.js"></script>
 <script src="../assets/js/respond.min.js"></script>
@@ -66,7 +69,7 @@
 								<li><a href="#">#######</a></li>
 							</ul></li>
 						<li><a href="#">หวยรัฐบาล</a></li>
-						<li><a href="pages/#">ติดต่อเรา</a></li>
+						<li><a href="#">ติดต่อเรา</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -111,7 +114,7 @@
 											class="table table-striped table-bordered" cellspacing="0"
 											width="100%">
 											<thead>
-												<tr>
+												<tr bgcolor="#ff645f">
 													<th>ลำดับ</th>
 													<th>รายการ</th>
 													<th>จำนวนเงิน</th>
@@ -146,7 +149,7 @@
 											class="table table-striped table-bordered" cellspacing="0"
 											width="100%">
 											<thead>
-												<tr>
+												<tr bgcolor="#ff645f">
 													<th>ลำดับ</th>
 													<th>รายการ</th>
 													<th>จำนวนเงิน</th>
@@ -181,8 +184,13 @@
 					</div>
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-4">
+					<div class="single_sidebar wow fadeInDown">
+						<div id="datepicker" align="center"></div>
+					</div>
 					<div class="single_sidebar">
-						<h2><span>ข้อมูลผู้ใช้</span></h2>
+						<h2>
+							<span>ข้อมูลผู้ใช้</span>
+						</h2>
 						<ul class="spost_nav">
 							<li>
 								<div class="media-body">ชื่อ: นายสมหมาย รวมมาก</div>
@@ -193,31 +201,35 @@
 						</ul>
 					</div>
 					<div class="single_sidebar">
-						<h2><span>กรอกข้อมูลเพิ่มเติม</span></h2>
+						<h2>
+							<span>กรอกข้อมูลเพิ่มเติม</span>
+						</h2>
 						<ul class="spost_nav">
 							<li>
-							<div class="media-body">ช่องทาง1</div>
-								<input class="form-control" type="text" placeholder="ช่องทาง1">
+								<div class="media-body">ช่องทาง1</div> <input
+								class="form-control" type="text" placeholder="ช่องทาง1">
 							</li>
 							<li>
-								<div class="media-body">ช่องทาง2</div>
-								<input class="form-control" type="text" placeholder="ช่องทาง2">
+								<div class="media-body">ช่องทาง2</div> <input
+								class="form-control" type="text" placeholder="ช่องทาง2">
 							</li>
 							<li>
-								<div class="media-body">ช่องอื่นๆ</div>
-								<textarea class="form-control" cols="10" rows="5" placeholder="ช่องอืนๆ"></textarea>
+								<div class="media-body">ช่องอื่นๆ</div> <textarea
+									class="form-control" cols="10" rows="5" placeholder="ช่องอืนๆ"></textarea>
 							</li>
 						</ul>
 					</div>
-          			<div class="single_sidebar wow fadeInDown">
-						<h2><span>ประเภทหวย</span></h2>
+					<div class="single_sidebar wow fadeInDown">
+						<h2>
+							<span>ประเภทหวย</span>
+						</h2>
 						<select class="catgArchive">
 							<option>-- เลือกหวย --</option>
 							<option>หวยรัฐบาล</option>
 							<option>หวยใต้ดิน</option>
 						</select>
 					</div>
-          
+
 				</div>
 			</div>
 		</section>
@@ -249,7 +261,6 @@
 			</div>
 		</footer>
 	</div>
-	<script type="text/javascript" src="../assets/js/jquery.min.js"></script>
 	<script type="text/javascript" src="../assets/js/wow.min.js"></script>
 	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../assets/js/slick.min.js"></script>
@@ -260,5 +271,6 @@
 	<script type="text/javascript"
 		src="../assets/js/jquery.fancybox.pack.js"></script>
 	<script type="text/javascript" src="../assets/js/custom.js"></script>
+	<script type="text/javascript" src="../assets/js/lottery.js"></script>
 </body>
 </html>
