@@ -13,7 +13,7 @@ jQuery(document).ready(function() {
         slidesToShow: 1,
         slide: 'div',
         autoplay: true,
-        autoplaySpeed: 5000,
+        autoplaySpeed: 30000,
         cssEase: 'linear'
     });
     // latest post slider call 

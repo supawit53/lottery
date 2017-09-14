@@ -1101,8 +1101,12 @@ body {
 	font-family: "rsuregular", Arial, sans-serif;
 	font-size: 14px;
 	line-height: 1.42857143;
-	color: #333;
+	color: #fff;
 	background-color: #fff
+}
+
+.fbb {
+	color: #333;
 }
 
 input, button, select, textarea {
@@ -2319,7 +2323,8 @@ pre code {
 }
 
 table {
-	background-color: transparent
+	/* background-color: transparent */
+	background-color: #fff
 }
 
 caption {
